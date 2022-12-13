@@ -3,7 +3,9 @@
 <head>
 	<style>
 		body { 
-			background-color: #9966CB;
+			background-image: url("17545r.jpg");
+			background-position-y: top;
+			background-repeat: repeat-y;
 			}
 		h1 {
 			font-size: 25px;
@@ -11,18 +13,49 @@
 			text-align: center;
 		}
 
-		p {
+		.new {
 			font-family: Arial;
-			font-size: 15px;
-			color: purple;
+			font-style: italic;
+			font-weight: bold;
+		}
+		.shadow {
+			text-shadow: 2px 2px;
+		}
+		table, th, td { 
+			border: 1px solid black;
 		}
 </style>
 <meta charset"utf-8">
-	<title>Test Page</title
+	<title>Test Page</title>
+	<link rel ="stylesheet" href="style.css">
 </head>
 <body>
 <h1>Test Words</h1>
-<p>Whoo.<br>
+<p style="font-style: italic; font-weight: bold;">Whoo.<br>
 Linebreaks!</p>
+<p class="new">This is the new class selector.</p>
+<p id="new">This is the external style sheet formatting!</p>
+<img src="EX3Logo.jpg" alt="Exalted Logo"><br>
+<p class="shadow">Shadowed Text.</p>
+
+<a href="https://bladesinthedark.com"><img src="bitdlogo.jpg" style="border-radius: 25px"></a>
+<table>
+	<caption>Telephone Directory</caption>
+	<tr>
+		<th>Name</th>
+		<th>Phone Number</th>
+	</tr>
+	<tr>
+		<td>Jim</td>
+		<td>555-5555</td>
+	</tr>
+		<tr>
+		<td>Pam</td>
+		<td>555-6666</td>
+	</tr>
+		<tr>
+		<td>Michael</td>
+		<td>555-4444</td>
+	</tr>
 </body>
 </html>
